@@ -19,7 +19,7 @@
       in
       {
         packages.default = self.packages.${system}.krm-package-compositor;
-        packages.krm-package-compositor = pkgs.buildGoModule {
+        packages.krm-package-compositor = pkgs.buildGo124Module {
           pname = "krm-package-compositor";
           version = "0.3.0";
           src = ./.;

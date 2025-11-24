@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
   "packages": [
+    "github:krm-functions/catalog/e9d1a24",
     "gnumake@4.4.1",
     "go@1.24.3",
     "golangci-lint@2.1.6",
