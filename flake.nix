@@ -25,13 +25,10 @@
           src = ./.;
           subPackages = [ "cmd/package-compositor" ];
           vendorHash = "sha256-+HUeO97tf2iXwuF7Y6REuZ7Qy7JbmeuJIJ5af7LxsRc=";
-          buildInputs = [
-            pkgs.go_1_24
-            # ... other build inputs
-          ];
           go = pkgs.go_1_24;
           # vendorHash = nixpkgs.lib.fakeHash;
           buildInputs = [
+            pkgs.go_1_24
             # ...
           ];
           postInstall = ''
